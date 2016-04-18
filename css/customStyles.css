@@ -87,6 +87,16 @@
     font-weight: bold;
 }
 
-.container {
+.container,div[animated-view] {
     margin-left:100px;
+}
+
+nav {
+	padding-left: 100px;
+}
+
+.view {
+    left: 60px;
+    position: relative;
+    opacity: 0.0;
 }

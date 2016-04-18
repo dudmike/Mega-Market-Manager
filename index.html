@@ -9,8 +9,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js" defer></script>
     <script src="scripts/angular-route.js" defer></script>
     <script src="manager/manager.js" defer></script>
-    <script type="text/javascript" src="manager/services/customersService.js" defer></script>
+    <script src="manager/services/customersService.js" defer></script>
     <script src="manager/controllers/controllers.js" defer></script>
+    <script src="manager/directives/animatedView.js" defer></script>
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -34,6 +35,6 @@
 		</div>
 	</nav>
 
-	<div ng-view></div>
+	<div animated-view></div>
 </body>
 </html>
