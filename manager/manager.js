@@ -13,5 +13,10 @@ manager.config(function ($routeProvider) {
                 controller: 'OrdersController',
                 templateUrl: 'manager/partials/orders.html'
             })
+        .when('/customerorders/:customerID',
+            {
+                controller: 'CustomerOrdersController',
+                templateUrl: 'manager/partials/customerOrders.html'
+            })
         .otherwise({ redirectTo: '/customers' });
 });
