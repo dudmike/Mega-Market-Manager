@@ -66,3 +66,27 @@
 #addCustomerRow {
     width: 1156px;
 }
+
+.lastRow {
+    background-color: #ccc;
+}
+
+.ordersTable {
+    width:800px;
+    margin-left:20px;
+}
+
+.orders th, .customerOrders th {
+    width:25%;
+    cursor: pointer;
+}
+
+.ordersTable tr:first-child th {
+    background-color: RGBA(255,0,0,0.67);
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    margin-left:100px;
+}

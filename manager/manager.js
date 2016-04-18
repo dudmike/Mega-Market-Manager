@@ -8,5 +8,10 @@ manager.config(function ($routeProvider) {
                 controller: 'CustomersController',
                 templateUrl: 'manager/partials/customers.html'
             })
+        .when('/orders',
+            {
+                controller: 'OrdersController',
+                templateUrl: 'manager/partials/orders.html'
+            })
         .otherwise({ redirectTo: '/customers' });
 });
