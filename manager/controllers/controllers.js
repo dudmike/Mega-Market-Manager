@@ -58,3 +58,18 @@ manager.controller('OrderChildController', function ($scope) {
     };
 
 });
+
+manager.controller('CustomerOrdersController', function ($scope, $routeParams, customersService) {
+    $scope.customer = {};
+    $scope.ordersTotal = 0;
+
+    init();
+
+    function init() {     
+        var customerID = ($routeParams.customerID) ? parseInt($routeParams.customerID) : 0;
+        if (customerID > 0) {
+            $scope.customer = customersService.getCustomer(customerID);
+        }
+    }
+
+});
