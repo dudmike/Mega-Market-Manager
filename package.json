@@ -1,0 +1,20 @@
+{
+  "name": "manager",
+  "version": "1.0.0",
+  "description": "control manager",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "z:/home/newsite/www/\"Mega Market Manager\""
+  },
+  "author": "Mike",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}
