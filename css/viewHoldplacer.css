@@ -1,0 +1,9 @@
+div[animated-view] {
+    margin-left:100px;
+}
+
+.view {
+    left: 60px;
+    position: relative;
+    opacity: 0.0;
+}
