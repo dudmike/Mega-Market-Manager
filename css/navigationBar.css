@@ -1,0 +1,30 @@
+.navbar-header > a > img {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: -10px;
+    margin-right: 10px;
+}
+
+#buttonsUl > li > a:focus {
+	background: #C13030;
+    color: yellow;
+}
+
+#buttonsUl > li > a {
+	background: red;
+	color: white;
+    margin-top: 4px;
+}
+
+#buttonsUl > li > a:hover {
+    background: #A90202;
+    color: white;
+}
+.container {
+    margin-left:100px;
+}
+
+nav {
+	padding-left: 100px;
+}
