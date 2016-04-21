@@ -1,3 +1,4 @@
+//This handles retrieving data and is used by controllers
 manager.service('customersService', function () {
     this.getCustomers = function () {
         return customers;
